@@ -1,0 +1,163 @@
+.navbar {
+  width: 100%;
+  padding: 25px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-btn {
+  padding: 10px 28px;
+  background: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: "Georgia", serif;
+  cursor: pointer;
+  transition: 0.2s ease;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-logo {
+  background: #ff855a;
+  padding: 18px 30px;
+  border-radius: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile-circle {
+  width: 55px;
+  height: 55px;
+  background: #ff855a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s ease;
+}
+
+.profile-circle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(255, 133, 90, 0.4);
+}
+
+.profile-circle img {
+  width: 60%;
+}
+
+/* Profile Dropdown Styles */
+.profile-dropdown {
+  position: absolute;
+  top: 65px;
+  right: 0;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  min-width: 260px;
+  padding: 12px;
+  z-index: 1000;
+  animation: dropdownFade 0.2s ease;
+}
+
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.dropdown-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+}
+
+.user-initial {
+  width: 45px;
+  height: 45px;
+  background: #ff855a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.user-info {
+  flex: 1;
+  overflow: hidden;
+}
+
+.user-email {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2d3748;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.user-label {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  color: #718096;
+}
+
+.dropdown-divider {
+  height: 1px;
+  background: #e2e8f0;
+  margin: 8px 0;
+}
+
+.sign-out-btn {
+  width: 100%;
+  padding: 10px 16px;
+  background: #fff5f5;
+  border: 1px solid #feb2b2;
+  border-radius: 8px;
+  color: #c53030;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.sign-out-btn:hover {
+  background: #fed7d7;
+  border-color: #fc8181;
+}
+
+.sign-out-btn span {
+  font-size: 16px;
+}

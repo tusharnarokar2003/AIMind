@@ -1,0 +1,36 @@
+.coming-wrapper {
+  background: linear-gradient(#f8dcb8, #fff);
+  min-height: 100vh;
+  font-family: "Georgia", serif;
+}
+
+/* Center content */
+.coming-content {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.coming-title {
+  font-size: 70px;
+  font-weight: 700;
+  color: #333;
+}
+
+.coming-text {
+  font-size: 22px;
+  margin-top: 20px;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* Round badge */
+.coming-badge {
+  margin: 50px auto 0;
+  background: #ff875f;
+  color: white;
+  width: 180px;
+  padding: 16px;
+  border-radius: 40px;
+  font-size: 24px;
+  font-weight: 600;
+}

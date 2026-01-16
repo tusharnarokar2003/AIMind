@@ -1,0 +1,16 @@
+.home-wrapper {
+  background: #fbe5cd;
+  min-height: 150vh;
+}
+
+/* Big gradient container */
+.home-content {
+  width: 97%;
+  height: 100vh;
+
+  background: linear-gradient(to bottom, #e7b17a, #ffeeda);
+  border-radius: 30px;
+
+  margin: 20px auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}

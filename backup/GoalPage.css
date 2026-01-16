@@ -1,0 +1,72 @@
+.goal-wrapper {
+  width: 100%;
+  height: 150vh;
+  background: #fbe5cd;
+  font-family: "Georgia", serif;
+}
+
+/* Header */
+.goal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 60px;
+}
+
+.brand {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.safe-space {
+  text-align: right;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+/* Banner Section */
+.goal-banner {
+  margin: 0 10px;
+  margin-top: 20px;
+  border-radius: 25px;
+  height: 59vh;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  padding: 60px;
+
+  background: linear-gradient(180deg, #e7b17a, #f3e2d3);
+}
+
+.goal-text h1 {
+  font-size: 90px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Right-side Image */
+.goal-image img {
+  height: 500px;
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
