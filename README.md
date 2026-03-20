@@ -11,6 +11,36 @@ AIMind is a comprehensive mental health and journaling application that combines
 - **Goal Tracking**: Set and monitor your personal goals.
 - **Community**: Connect with others through the community page.
 
+## Project Structure
+
+```text
+aimind-app/
+├── backend/                  # Node.js API for Mood Prediction
+│   ├── routes/               # API endpoints (e.g., mood.js)
+│   ├── services/             # Core logic (e.g., moodPredictor.js)
+│   ├── model.py              # Python script for emotion classification
+│   └── server.js             # Main Express server entry point
+├── backend2/                 # Python/Flask API for AI Chat Assistant
+│   ├── app.py                # Main Flask server entry point
+│   ├── model_loader.py       # Module to load SmolLM2-360M
+│   └── requirements.txt      # Python dependencies for chat server
+├── public/                   # Static assets
+├── src/                      # React Frontend Source Code
+│   ├── assets/               # Images and icons
+│   ├── components/           # Reusable React components
+│   ├── context/              # React Context (Auth, Mood)
+│   ├── pages/                # Page components (Auth, Home, Notes, etc.)
+│   ├── services/             # API services for frontend
+│   ├── utils/                # Utility functions
+│   ├── App.jsx               # Root application component
+│   └── router.jsx            # React Router configuration
+├── .env                      # Environment variables
+├── index.html                # Vite HTML entry point
+├── package.json              # Frontend npm dependencies
+├── README.md                 # Project documentation
+└── vite.config.js            # Vite configuration
+```
+
 ## Technical Details
 
 The project is built using a modern microservices architecture, featuring a React frontend and two specialized backends for AI processing.
